@@ -1,0 +1,98 @@
+const courses = `[{ 
+        "id": 1, 
+        "name": "COOP0001 - Orientation to COOP"
+    },
+    { 
+        "id": 1501, 
+        "name": "COMP1501 - Programming I"
+    },
+    { 
+        "id": 1502, 
+        "name": "COMP1502 - Programming II"
+    },
+    { 
+        "id": 2503, 
+        "name": "COMP2503 - Programming III"
+    },
+    { 
+        "id": 3504, 
+        "name": "COMP3504 - Programming IV"
+    },
+    { 
+        "id": 2511, 
+        "name": "COMP2511 - Web I"
+    },
+    { 
+        "id": 3512, 
+        "name": "COMP3512 - Web II"
+    },
+    { 
+        "id": 4513, 
+        "name": "COMP4513 - Web III"
+    },
+    { 
+        "id": 2511, 
+        "name": "COMP2511 - Database I"
+    },
+    { 
+        "id": 4522, 
+        "name": "COMP4522 - Database II"
+    },
+    { 
+        "id": 1505, 
+        "name": "MATH1505 - Puzzling Adventures in Math"
+    },
+    { 
+        "id": 3210, 
+        "name": "MGMT3210 - Bussiness Communication"
+    },
+    { 
+        "id": 2531, 
+        "name": "COMP2531 - OS and Architecture"
+    },
+    { 
+        "id": 2541, 
+        "name": "COMP2541 - System Analysis"
+    },
+    
+    { 
+        "id": 3532, 
+        "name": "COMP3532 - System Admin and Maintenance"
+    },
+    { 
+        "id": 3309, 
+        "name": "COMP3309 - Info Tech and Society"
+    },
+    { 
+        "id": 3012, 
+        "name": "COMP3012 - Robotics"
+    },
+    { 
+        "id": 3533, 
+        "name": "COMP3533 - Networks Infrastructure and Security"
+    },
+    { 
+        "id": 3505, 
+        "name": "COMP3505 - Software Testing"
+    },
+    { 
+        "id": 3553, 
+        "name": "COMP3553 - Human Computer Interaction"
+    },
+    { 
+        "id": 4535,
+        "name": "COMP4535 - Security"
+    },
+    { 
+        "id": 4555, 
+        "name": "COMP4555 - Game Dev"
+    },
+    { 
+        "id": 5590, 
+        "name": "COMP5590 - Senior Project"
+    },
+    { 
+        "id": 4545, 
+        "name": "COMP4545 - Info System Organization"
+    }
+] `;

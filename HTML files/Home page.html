@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>User Profile</title>
+</head>
+<body>
+    <h1>Create Your User Profile</h1>
+    <form id="profile-form">
+        <label for="first-name">First Name:</label>
+        <input type="text" id="first-name" required><br><br>
+
+        <label for="last-name">Last Name:</label>
+        <input type="text" id="last-name" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required> <br>
+
+        <label for="courses">Courses:</label>
+        <select id="courses_options" name="courses_options" multiple>
+            <script >
+                printCourseOptions();
+             </script>
+        </select><br><br>
+
+        <label for="availability">Availability:</label><br>
+        <div id="availability">
+            <label for="sunday">Sunday:</label>
+        From: <input type="time" id="sunday-from" name="sunday-from">
+        To: <input type="time" id="sunday-to" name="sunday-to">
+        <br>
+
+        <label for="monday">Monday:</label>
+        From: <input type="time" id="monday-from" name="monday-from">
+        To: <input type="time" id="monday-to" name="monday-to">
+        <br>
+
+        <label for="tuesday">Tuesday:</label>
+        From: <input type="time" id="tuesday-from" name="tuesday-from">
+        To: <input type="time" id="tuesday-to" name="tuesday-to">
+        <br>
+
+        <label for="wednesday">Wednesday:</label>
+        From: <input type="time" id="wednesday-from" name="wednesday-from">
+        To: <input type="time" id="wednesday-to" name="wednesday-to">
+        <br>
+
+        <label for="thursday">Thursday:</label>
+        From: <input type="time" id="thursday-from" name="thursday-from">
+        To: <input type="time" id="thursday-to" name="thursday-to">
+        <br>
+
+        <label for="friday">Friday:</label>
+        From: <input type="time" id="friday-from" name="friday-from">
+        To: <input type="time" id="friday-to" name="friday-to">
+        <br>
+
+        <label for="saturday">Saturday:</label>
+        From: <input type="time" id="saturday-from" name="saturday-from">
+        To: <input type="time" id="saturday-to" name="saturday-to">
+        <br>
+        </div><br><br>
+
+        <button type="submit">Save Profile</button>
+    </form>
+
+</body>
+</html>
