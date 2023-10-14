@@ -2,12 +2,15 @@
 <html lang="en">
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    
+    <script src="/JS_files/sample_courses.json"></script>
+    <script src="/JS_files/user_profiles.json"></script>
+    <script type="module" type="express"src="/JS_files/app.js"></script>
+    <script src="/JS_files/importuser_info.js"></script>
     <title>User Profile</title>
-</head>
+</head> 
 <body>
     <h1>Create Your User Profile</h1>
-    <form id="profile-form">
+    <form  method="GET"id="profile-form">
         <label for="first-name">First Name:</label>
         <input type="text" id="first-name" required><br><br>
 
@@ -15,10 +18,10 @@
         <input type="text" id="last-name" required><br><br>
 
         <label for="email">Email:</label>
-        <input type="email" id="email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required> <br>
+        <input type="email" id="email" name="email"  required> <br>
 
         <label for="courses">Courses:</label>
-        <select id="courses_options" name="courses_options" multiple>
+        <select id="courses_options" name="courses_options" multiple required>
             <script >
                 printCourseOptions();
              </script>
